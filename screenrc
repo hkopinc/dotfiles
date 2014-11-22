@@ -1,0 +1,13 @@
+hardstatus alwayslastline
+hardstatus string '%{= kG}[ %{G}%H %{g}][%= %{= kw}%?%-Lw%?%{r}(%{W}%n*%f%t%?(%u)%?%{r})%{w}%?%+Lw%?%?%= %{g}][%{B} %M-%d %{W} %c %{g}]'
+caption string "%?%F%{= Bk}%? %t %?%F%{= Bk}%:%{= wk}%? %n "
+
+altscreen on
+vbell off
+startup_message off
+defscrollback 2000
+
+bind j focus down
+bind k focus up
+bind h focus left
+bind l focus right
