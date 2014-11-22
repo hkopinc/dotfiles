@@ -6,7 +6,7 @@ Installation
 
 With Git:
 
-    git clone git://github.com/hkopinc/dotfiles ~/.dotfiles
+    git clone https://github.com/hkopinc/dotfiles ~/.dotfiles
     cd ~/.dotfiles
     bash install.sh
 
