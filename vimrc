@@ -6,8 +6,8 @@ colorscheme desert          "colorscheme
 set autoindent              " Carries over previous indent to the next line
 set smartindent             " try to be smart about indenting (C-style)
 set expandtab               " Tab key inserts spaces instead of tabs
-set shiftwidth=2            " Sets spaces used for (auto)indent
-set tabstop=2               " Sets the tab size to 4
+set shiftwidth=4            " Sets spaces used for (auto)indent
+set tabstop=4               " Sets the tab size to 4
 set shiftround              " Indent to nearest tabstop
 set copyindent              " use existing indents for new indents
 set preserveindent          " save as much indent structure as possible
