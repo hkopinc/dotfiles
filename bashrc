@@ -8,6 +8,7 @@ alias cp='cp -i'
 alias mv='mv -i'
 
 # ls
+alias ls='ls --color=auto'
 alias ll='ls -lh'
 
 # grep
