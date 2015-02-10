@@ -21,7 +21,7 @@ LBLUE="\[\033[1;34m\]"
 LGREEN="\[\033[1;32m\]"
 LRED="\[\033[1;31m\]"
 RES_COLOR="\[\033[0m\]"
-PS1=$RES_COLOR"["$LBLUE"ENV"$RES_COLOR"][\u@"$LRED"\h"$RES_COLOR" \w]\n\$"
+PS1=$RES_COLOR"["$LBLUE"ENV"$RES_COLOR"][\u@"$LRED"\h"$RES_COLOR" \w]\$ "
 
 # Source global definitions
 if [ -f /etc/bashrc ]; then
