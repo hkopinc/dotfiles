@@ -1,6 +1,7 @@
 # .bashrc
 
-# User specific aliases and functions
+export VISUAL=vim
+export EDITOR="$VISUAL"
 
 # safety
 alias rm='rm -i'
