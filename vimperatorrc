@@ -1,0 +1,30 @@
+" vim: set ft=vimperator:
+
+"focus next/previous tab
+map l :tabnext<CR>
+map h :tabprevious<CR>
+
+"completed items when o pressed, search and location bar
+set complete=sl
+
+"focus the content after a page has loaded
+"set focuscontent=true
+
+"Maximum number of items to display at once in a listing.
+set maxitems=15
+
+"scroll
+set scroll=25
+
+"highlight search
+set hlsearch
+
+"chars for hint labels
+set hintchars=hjklasdfgyuiopqwertnzxcvb
+
+"show tab numbers
+set tabnumbers=true
+
+colorscheme molokai
+set gui=noaddons,nobookmarks,nomenu,navigation,tabs
+set defsearch=google
