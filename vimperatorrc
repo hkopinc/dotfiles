@@ -1,4 +1,4 @@
-" vim: set ft=vimperator:
+" vim: set ft=vim:
 
 "focus next/previous tab
 map l :tabnext<CR>
@@ -8,7 +8,7 @@ map h :tabprevious<CR>
 set complete=sl
 
 "focus the content after a page has loaded
-"set focuscontent=true
+set focuscontent=true
 
 "Maximum number of items to display at once in a listing.
 set maxitems=15
@@ -22,9 +22,9 @@ set hlsearch
 "chars for hint labels
 set hintchars=hjklasdfgyuiopqwertnzxcvb
 
-"show tab numbers
-set tabnumbers=true
-
-colorscheme molokai
+colorscheme indigo
 set gui=noaddons,nobookmarks,nomenu,navigation,tabs
 set defsearch=google
+
+"sw to switch tab groups
+:ca sw panorama switch
