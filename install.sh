@@ -1,13 +1,13 @@
 #!/bin/bash
 
-files="bashrc screenrc tmux.conf vimrc"
+files="bashrc tmux.conf vimrc"
 dir=$(cd "$(dirname "$0")"; pwd)
 
 for file in $files; do
     #backup files
     if [ -f ~/.$file ]; then
-        echo "Moving .$file from ~/ to $dir"
-        mv ~/.$file $dir/$file.bak
+        echo "Moving .$file from ~/ to $dir/bak"
+        mv ~/.$file $dir/bak/$file.bak
     fi
 
     #create links
