@@ -41,3 +41,11 @@ command! -bang WA wa<bang>
 command! -bang Q q<bang>
 command! -bang QA qa<bang>
 command! -bang Qa qa<bang>
+
+map <space> <leader>
+nmap <Leader>b :ls<CR>:buffer<Space>
+nnoremap <silent> <C-L> :nohlsearch<CR><C-L>
+
+if filereadable(glob("~/.vimrc.local"))
+    source ~/.vimrc.local
+endif
